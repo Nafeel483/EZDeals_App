@@ -37,7 +37,7 @@ const Splash = (props: any) => {
     ]).start(() => {
       // Optional: navigate after 3 seconds
       setTimeout(() => {
-        // navigation.replace('Login'); // replace 'Login' with your screen name
+        navigation.replace('Onboarding'); 
       }, 3000);
     });
   }, []);
@@ -49,7 +49,6 @@ const Splash = (props: any) => {
       <View style={Styles.mainContainer}>
 
         <View style={Styles.centerWrapper}>
-
             <Animated.Image
               source={Images.logo}
               style={[
@@ -59,12 +58,9 @@ const Splash = (props: any) => {
                   opacity: opacityValue,
                 },
               ]}
-              resizeMode="contain"
-            />
-
+              resizeMode="contain" />
         </View>
 
-        
       </View>
     </SafeAreaView>
   );

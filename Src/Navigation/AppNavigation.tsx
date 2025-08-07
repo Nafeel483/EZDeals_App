@@ -10,10 +10,11 @@ import { enableScreens } from 'react-native-screens';
 // import BottomTabView from "./BottomNavigation";
 
 import Splash from '../Screens/Splash';
+import Onboarding from '../Screens/Onboarding';
 
 type RootStackParamList = {
   Splash: undefined,
-  // ChooseAccount: undefined,
+  Onboarding: undefined,
   // LoginSignUp: undefined,
   // BottomTabView: undefined,
   
@@ -43,7 +44,7 @@ export default function RootNavigator() {
           headerShown: false,
         }}>
         <RootStack.Screen name='Splash' component={Splash} options={{ headerShown: false }} />
-        {/* <RootStack.Screen name='ChooseAccount' component={ChooseAccount} options={{ headerShown: false }} /> */}
+        <RootStack.Screen name='Onboarding' component={Onboarding} options={{ headerShown: false }} />
         {/* <RootStack.Screen name='LoginSignUp' component={LoginSignUp} options={{ headerShown: false }} /> */}
         {/* <RootStack.Screen name='BottomTabView' component={BottomTabView} options={{ headerShown: false }} /> */}
 

@@ -12,6 +12,13 @@ export default function Root() {
     "SF-Pro-Medium": require("../assets/Fonts/SF-Pro-Text-Medium.otf"),
     "SF-Pro-Regular": require("../assets/Fonts/SF-Pro-Text-Regular.otf"),
     "SF-Pro-SemiBold": require("../assets/Fonts/SF-Pro-Text-Semibold.otf"),
+
+    "DMSans-Regular": require("../assets/Fonts/DMSans-Regular.ttf"),
+    "DMSans-Medium": require("../assets/Fonts/DMSans-Medium.ttf"),
+    "DMSans-SemiBold": require("../assets/Fonts/DMSans-SemiBold.ttf"),
+    "DMSans-Bold": require("../assets/Fonts/DMSans-Bold.ttf"),
+    "DMSans-Black": require("../assets/Fonts/DMSans-Black.ttf"),
+    "DMSans-ExtraBold": require("../assets/Fonts/DMSans-ExtraBold.ttf"),
     
   });
 
