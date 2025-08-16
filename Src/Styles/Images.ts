@@ -5,8 +5,8 @@ const images = {
   onboarding1: require('../../assets/Icons/onboarding1.png'),
   onboarding2: require('../../assets/Icons/onboarding2.png'),
   onboarding3: require('../../assets/Icons/onboarding3.png'),
-  // iconPhone: require('../../assets/Icons/iconPhone.png'),
-  // iconMail: require('../../assets/Icons/iconMail.png'),
+  google: require('../../assets/Icons/google.png'),
+  apple: require('../../assets/Icons/apple.png'),
  
   // onboarding1: require('../../assets/Icons/onboarding1.png'),
 

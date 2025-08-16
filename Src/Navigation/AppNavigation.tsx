@@ -11,13 +11,16 @@ import { enableScreens } from 'react-native-screens';
 
 import Splash from '../Screens/Splash';
 import Onboarding from '../Screens/Onboarding';
+import Login from '../Screens/AuthScreens/Login';
+import Register from '../Screens/AuthScreens/Register';
 
 type RootStackParamList = {
   Splash: undefined,
   Onboarding: undefined,
-  // LoginSignUp: undefined,
+  Login: undefined,
+  Register: undefined,
   // BottomTabView: undefined,
-  
+
 };
 
 // type AuthStackParamList = {
@@ -45,12 +48,13 @@ export default function RootNavigator() {
         }}>
         <RootStack.Screen name='Splash' component={Splash} options={{ headerShown: false }} />
         <RootStack.Screen name='Onboarding' component={Onboarding} options={{ headerShown: false }} />
-        {/* <RootStack.Screen name='LoginSignUp' component={LoginSignUp} options={{ headerShown: false }} /> */}
+        <RootStack.Screen name='Login' component={Login} options={{ headerShown: false }} />
+        <RootStack.Screen name='Register' component={Register} options={{ headerShown: false }} />
         {/* <RootStack.Screen name='BottomTabView' component={BottomTabView} options={{ headerShown: false }} /> */}
 
         {/* <RootStack.Screen name='ViewOrderDetail' component={ViewOrderDetail} options={{ headerShown: false }} /> */}
         {/* <RootStack.Screen name='StoreLocation' component={StoreLocation} options={{ headerShown: false }} /> */}
-       
+
 
 
         {/* Onboarding */}

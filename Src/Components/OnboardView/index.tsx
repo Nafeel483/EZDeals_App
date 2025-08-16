@@ -51,7 +51,7 @@ const OnboardingScreen = (props: any) => {
       <Pagination data={dataSlides} currentIndex={currentIndex} />
       {
         currentIndex == 2 ? (
-          <TouchableOpacity style={Styles.nextButton} onPress={() => { navigation?.navigate("") }}>
+          <TouchableOpacity style={Styles.nextButton} onPress={() => { navigation?.navigate("Login") }}>
             <Text style={Styles.nextButtonText}>{"Get Started"}</Text>
           </TouchableOpacity>
         ) : (
